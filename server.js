@@ -15,6 +15,9 @@ app.use(express.json());
 const bpmRouter = require("./routes/BPMs");
 app.use('/BPM',bpmRouter);
 
+app.get("/", (req, res) => {
+   res.send("Main page!");
+ });
 
 app.listen(process.env.PORT || 8080, () => {
    console.log( 'Server Started' )} )
