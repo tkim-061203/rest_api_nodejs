@@ -13,7 +13,9 @@ mongoose.connect(process.env.DATABASE_URL)
 
 app.use(express.json());
 const bpmRouter = require("./routes/BPMs");
-app.use('/BPM',bpmRouter);
+app.use('/bpm',bpmRouter);
+const spo2Router = require("./routes/SpO2");
+app.use('/spo2',spo2Router);
 
 app.get("/", (req, res) => {
    res.send("Main page!");
