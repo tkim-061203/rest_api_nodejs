@@ -18,4 +18,4 @@ const dataSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('bpm',dataSchema)
+module.exports = mongoose.model('spo2',dataSchema)

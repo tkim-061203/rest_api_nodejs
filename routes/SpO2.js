@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Subscriber = require('../models/bpms' )
+const Subscriber = require('../models/spo2' )
 // Getting all
 router.get('/', async(req, res) => {
     try {
