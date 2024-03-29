@@ -6,14 +6,12 @@ const dataSchema = new mongoose.Schema({
         required: true
     },
     bpm:{
-        type: Number,
-        min : 1,
-        max : 999
+        type: String,
+        required: true
     },
     spo2:{
-        type: Number,
-        min : 1,
-        max : 999
+        type: String,
+        required: true
     },
     date:{
         type: Date,
