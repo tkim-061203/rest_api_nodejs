@@ -5,13 +5,13 @@ const dataSchema = new mongoose.Schema({
         type: Number,
         min : 1,
         max : 999,
-        required: true
+        required: false
     },
     spo2:{
         type: Number,
         min : 1,
         max : 999,
-        required: true
+        required: false
     },
     date:{
         type: Date,

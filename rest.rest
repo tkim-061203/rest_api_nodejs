@@ -6,5 +6,6 @@ POST https://fetel-rest-api-heart.vercel.app/data
 Content-Type: application/json
 
 {
-    "name": "Amazing Person"
+    "spo2": 98,
+    "bpm": 54
 }
