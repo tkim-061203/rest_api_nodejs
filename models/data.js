@@ -1,19 +1,17 @@
 const mongoose = require('mongoose')
 
 const dataSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required: true
-    },
     bpm:{
         type: Number,
         min : 1,
-        max : 999
+        max : 999,
+        required: true
     },
     spo2:{
         type: Number,
         min : 1,
-        max : 999
+        max : 999,
+        required: true
     },
     date:{
         type: Date,

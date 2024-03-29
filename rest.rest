@@ -1,2 +1,10 @@
-GET http://localhost:8080/data
+GET https://fetel-rest-api-heart.vercel.app/data
 
+
+###
+POST https://fetel-rest-api-heart.vercel.app/data
+Content-Type: application/json
+
+{
+    "name": "Amazing Person"
+}
