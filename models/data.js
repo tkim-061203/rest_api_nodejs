@@ -5,13 +5,7 @@ const dataSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    bpm:{
-        type: Number,
-        min : 1,
-        max : 999,
-        required: true
-    },
-    spo2:{
+    data:{
         type: Number,
         min : 1,
         max : 999,
@@ -24,4 +18,4 @@ const dataSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('data',dataSchema)
+module.exports = mongoose.model('data',dataSchema);
