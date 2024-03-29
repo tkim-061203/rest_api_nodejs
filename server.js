@@ -16,6 +16,8 @@ const bpmRouter = require("./routes/BPMs");
 app.use('/bpm',bpmRouter);
 const spo2Router = require("./routes/SpO2");
 app.use('/spo2',spo2Router);
+const dataRouter = require("./routes/Data");
+app.use('/data',dataRouter);
 
 app.get("/", (req, res) => {
    res.send("Main page!");
