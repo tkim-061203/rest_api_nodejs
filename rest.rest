@@ -2,10 +2,11 @@ GET https://fetel-rest-api-heart.vercel.app/data
 
 
 ###
-POST https://fetel-rest-api-heart.vercel.app/data
+POST https://fetel-rest-api-heart.vercel.app/bpm
 Content-Type: application/json
 
 {
-    "spo2": 98,
-    "bpm": 54
+    "name": "MAX30102"
+    "bpm": 54,
+    "spo2": 98
 }
