@@ -19,8 +19,8 @@ router.get('/:id', geSubcriber, (req, res) => {
 // Creating one
 router.post('/', async(req, res) => {
     const subscriber = new Subscriber({
-        name: req.body.name,
-        data: req.body.data
+        bpm: req.body.bpm,
+        spo2: req.body.spo2
     })
     try {
         const newsubscriber = await subscriber.save()
