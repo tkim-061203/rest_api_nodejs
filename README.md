@@ -15,5 +15,5 @@ Change structure data in the folder model and folder router.
 ### How to run
 Run file server.js.
 
-Need Live Server extension in VSCode to run locally.
-If you want to publicise the web, you must push your Project to Git Hub and deploy by vessel.
+We need a Live Server extension in VSCode to run locally.
+To publicise the web, you must push your Project to Git Hub and deploy by vescel.
